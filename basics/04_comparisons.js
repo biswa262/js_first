@@ -7,3 +7,6 @@ console.log(undefined>=0);//false
 console.log(undefined>0);//false
 console.log(undefined<0);//false
 //=== checks the operands and their data types
+const id=Symbol('124')
+const secId=Symbol('124')
+console.log(id==secId);//returns false as every Symbol() call creates an unique symbol
